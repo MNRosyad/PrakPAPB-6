@@ -59,4 +59,21 @@ limitations under the License. -->
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0" />
 
+    <TextView
+        android:id="@+id/date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/standard_margin"
+        app:layout_constraintTop_toBottomOf="@+id/description"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/date_label" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/standard_margin"
+        app:layout_constraintTop_toTopOf="@+id/date_label"
+        app:layout_constraintStart_toEndOf="@+id/date_label" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

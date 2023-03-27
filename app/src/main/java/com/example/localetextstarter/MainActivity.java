@@ -9,8 +9,13 @@ import android.provider.Settings;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +31,14 @@ public class MainActivity extends AppCompatActivity {
                 showHelp();
             }
         });
+
+        Date expDate = new Date();
+        long expirationDate = expDate.getTime() + TimeUnit.DAYS.toMillis(3);
+        expDate.setTime(expirationDate);
+
+        String formDate = DateFormat.getDateInstance().format(expDate);
+        TextView expDateText = findViewById(R.id.date);
+        expDateText.setText(formDate);
     }
 
     /**
