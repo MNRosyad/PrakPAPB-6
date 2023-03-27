@@ -6,4 +6,5 @@
     <string name="nougat">Paket Permen Nougat</string>
     <string name="description">Nougat adalah keluarga manisan yang dibuat dengan gula atau madu, kacang panggang (almond, kenari, pistachio, hazelnut, dan kacang macadamia yang umum), putih telur kocok, dan kadang-kadang manisan buah cincang. Ini digunakan dalam berbagai permen dan cokelat.</string>
     <string name="action_language">Pengaturan Bahasa</string>
+    <string name="dial_log_message" translatable="false">Tidak dapat menyelesaikan aplikasi untuk Maksud ACTION_DIAL.</string>
 </resources>
