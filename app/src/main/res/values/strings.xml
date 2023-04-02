@@ -1,7 +1,12 @@
 <resources>
     <!-- All comments are notes to translators. -->
     <string name="app_name">LocaleText</string>
-    <string name="date_label">"Expired Date : "</string>
+    <string name="date_label">Expired Date : </string>
+    <string name="input_price">Price per Item : $</string>
+    <string name="price_100_item">"Price per 100 item : "</string>
+    <string name="price_placeholder">Please input the price</string>
+    <string name="item_price">Item Price</string>
+    <string name="btn_calculate">Calculate</string>
 
     <!-- The Help option in the options menu, no more than 30 chars. -->
     <string name="action_help">Help</string>

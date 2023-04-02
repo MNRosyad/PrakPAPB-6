@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">LocaleText</string>
+    <string name="input_price">سعر السلعة: ريال</string>
     <string name="action_help">يساعد</string>
     <string name="help_text">إذا كنت بحاجة إلى مساعدة ، فاتصل بقسم الدعم لدينا.</string>
     <string name="nougat">نوجا كاندي باك</string>
     <string name="description">النوجا هي عائلة من الحلويات المصنوعة من السكر أو العسل ، والمكسرات المحمصة (اللوز والجوز والفستق والبندق والمكاديميا شائعة) ، بياض البيض المخفوق ، وأحيانًا الفاكهة المسكرة المقطعة. يتم استخدامه في مجموعة متنوعة من قطع الحلوى والشوكولاتة.</string>
     <string name="action_language">إعدادات اللغة</string>
     <string name="date_label">منتهي الصلاحية :</string>
+    <string name="price_100_item">"السعر لكل 100 عنصر: "</string>
+    <string name="price_placeholder">الرجاء إدخال السعر</string>
+    <string name="btn_calculate">عدد</string>
+    <string name="item_price">سعر السلعة</string>
 </resources>
